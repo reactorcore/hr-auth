@@ -1,0 +1,23 @@
+{
+  "name": "hr-auth-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/express-jwt": "0.0.34",
+    "@types/node": "^7.0.18",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "compose-middleware": "^2.2.0",
+    "express-jwt": "^5.3.0",
+    "jwks-rsa": "^1.1.1"
+  }
+}
